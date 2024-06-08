@@ -28,5 +28,4 @@ for course in course_cards:
     course_price = course.a.text.split()[-1] # a tag stores the prices 
 
     print(f'{course_name} costs {course_price}')
-
-#seth is gay 
+    print(course.text)
