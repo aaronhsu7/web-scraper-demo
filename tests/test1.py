@@ -29,4 +29,3 @@ for course in course_cards:
 
     print(f'{course_name} costs {course_price}')
 
-# seth is gay
